@@ -1,0 +1,234 @@
+
+body {
+    width: 100vh;
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    margin-left: 20vw;
+}
+
+.menu-links a {
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+main {
+    background-color: black;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    color: white;
+}
+
+header {
+    background-color: black;
+    width: 600px;
+    height: 150px;
+    color: white;
+
+}
+
+
+section {
+
+    background-color: black;
+    width: 600px;
+    height: 400px;
+    color: white;
+}
+
+footer {
+  margin-bottom: 30px;
+    background-color: black;
+    width: 600px;
+    height: 85px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.e {
+    height: 270px;
+}
+
+.profile {
+    background-image: url("profile");
+    background-size: cover;
+    border-radius: 50%;
+
+}
+
+.composants {
+    margin-left: 250px;
+    display: flex;
+
+}
+
+.composants p {
+    padding: 5px;
+}
+
+.imagegrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2px;
+    margin-left: 80px;
+}
+
+
+#post1 {
+    width: 400px;
+    height: 200px;
+}
+
+#post2 {
+    width: 400px;
+    height: 200px;
+}
+
+#profil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.description {
+    width: 140%;
+    display: flex;
+    gap: 7px;
+    margin-left: 80px;
+    color: gray;
+}
+
+.description2 {
+    text-align: center;
+    justify-content: center;
+    color: gray;
+    display: flex;
+    gap: 5px;
+    margin-left: 200px;
+    
+}
+
+#image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-left: 70px;
+}
+
+.profile {
+    display: flex;
+    gap: 50px;
+}
+
+.info {
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.modification {
+    display: flex;
+    gap: 10px;
+
+}
+
+.edit {
+    color: white;
+    display: flex;
+    gap: 50px;
+    background-color: grey;
+    height: 30px;
+    border: 1px;
+    border-radius: 5px;
+}
+
+.archive {
+    color: white;
+
+    display: flex;
+    gap: 50px;
+    background-color: grey;
+    height: 30px;
+    border: 1px;
+
+    border-radius: 5px;
+}
+
+.modification {
+    display: flex;
+    margin-top: 20px;
+}
+
+.followers {
+    display: flex;
+    gap: 30px;
+    margin-left: 200px;
+}
+
+aside {
+    overflow-y: auto;
+    width: 16vw;
+    height: 100vw;
+    top: 0;
+    left: 0;
+    color: white;
+    position: fixed !important;
+    border-right: 1px solid rgb(59, 59, 60);
+
+
+}
+
+aside h3 {
+    color: white;
+    font-family: Georgia, serif;
+    font-size: 28px;
+
+    padding-left: 28px;
+
+}
+
+.menu {
+    padding-top: 2%;
+    padding-left: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.menu a {
+
+    color: rgb(234, 225, 225);
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+    font-family: sans-serif !important;
+
+}
+
+.menu .icons svg,
+.profile-image2 {
+    margin-right: 1.3rem;
+    color: rgb(248, 243, 243) !important;
+    margin-top: 12px;
+
+}
+
+.additional-links a {
+    font-size: 13px;
+}
+
+.profile-image2 {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
